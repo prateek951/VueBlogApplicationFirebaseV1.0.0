@@ -8,14 +8,14 @@
 				<label>Blog Content</label>
 				<textarea v-model.lazy="blog.content"></textarea>
 				<div id="checkboxes">
-					<label for="">Ninjas</label>
-					<input type="checkbox" value="Ninjas" v-model="blog.categories" required>
-					<label for="">Wizards</label>
-					<input type="checkbox" value="Wizards" v-model="blog.categories">
-					<label for="">Mario</label>
-					<input type="checkbox" value="Mario" v-model="blog.categories">
-					<label for="">Cheese</label>
-					<input type="checkbox" value="Cheese" v-model="blog.categories">
+					<label for="">Fiction</label>
+					<input type="checkbox" value="Fiction" v-model="blog.categories" required>
+					<label for="">Non-fiction</label>
+					<input type="checkbox" value="Non-fiction" v-model="blog.categories">
+					<label for="">Science</label>
+					<input type="checkbox" value="Science" v-model="blog.categories">
+					<label for="">Technology</label>
+					<input type="checkbox" value="Technology" v-model="blog.categories">
 				</div>
 				<label for="">Author</label>
 				<select v-model="blog.author">
